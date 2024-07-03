@@ -1,0 +1,67 @@
+body{
+    margin: 0px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    background-color: antiquewhite;
+}
+/* div-container-style */
+.container{
+    width: 30vh;
+    margin-top: 10px;
+   display: flex;
+}
+.container .left-container{
+    display: block;
+
+}
+.container .rigth-container{
+    display: block;
+    margin-left: 20px;
+}
+.headTwo{
+    margin-left: 15px;
+}
+
+/* MyButton */
+#MyButton{
+   margin-top: 10px;
+}
+img{
+    width: 40px;
+    height: 30px;
+}
+
+/* last-Two-Buttons */
+.down-container{
+    display: flex;
+}
+.rigth-containerTwo{
+    margin-left: 20px;
+}
+
+/* responsive */
+@media (max-width: 600px){
+.container .left-container{
+    margin-left: 50px;
+    
+    }
+ .left-containerTwo{
+    margin-left: 50px;
+ }  
+.headTwo{
+    margin-left: 70px;
+}
+ }
+ @media (min-width: 601px) and (max-width: 850px){
+    .container .left-container{
+        margin-left: 50px;
+        
+        }
+     .left-containerTwo{
+        margin-left: 50px;
+     }  
+    .headTwo{
+        margin-left: 70px;
+    }
+   }
